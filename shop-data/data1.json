@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 1,
+      "title" : "Ballona",
+      "content" : "1번 보드",
+      "inch": "27.75",
+      "price" : 268000
+    },
+    {
+      "id" : 2,
+      "title" : "Basalt Tesseract",
+      "content" : "2번 보드",
+      "inch": "39",
+      "price" : 481000
+    },
+    {
+      "id" : 3,
+      "title" : "Cantellated Tesseract",
+      "content" : "3번 보드",
+      "inch": "36",
+      "price" : 475000
+    }
+]

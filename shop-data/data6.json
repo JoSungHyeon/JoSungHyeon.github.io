@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 16,
+      "title" : "4President",
+      "content" : "16번 휠",
+      "inch" : "70mm",
+      "price" : 94000
+    },
+    {
+      "id" : 17,
+      "title" : "Caguama",
+      "content" : "17번 휠",
+      "inch" : "85mm",
+      "price" : 125000
+    },
+    {
+      "id" : 18,
+      "title" : "Dad Bod",
+      "content" : "18번 휠",
+      "inch" : "105mm",
+      "price" : 213000
+    }
+]

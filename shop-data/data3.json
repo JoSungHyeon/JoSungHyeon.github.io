@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 7,
+      "title" : "Evolve Onirique",
+      "content" : "7번 보드",
+      "inch" : "34.5",
+      "price" : 1554000
+    },
+    {
+      "id" : 8,
+      "title" : "Fathom, 33(550,000)",
+      "content" : "8번 보드",
+      "inch" : "33",
+      "price" : 550000
+    },
+    {
+      "id" : 9,
+      "title" : "Icarus",
+      "content" : "9번 보드",
+      "inch" : "38.4",
+      "price" : 515000
+    }
+]

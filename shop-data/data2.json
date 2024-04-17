@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 4,
+      "title" : "Chinchiller",
+      "content" : "4번 보드",
+      "inch" : "34",
+      "price" : 423000
+    },
+    {
+      "id" : 5,
+      "title" : "Coyote",
+      "content" : "5번 보드",
+      "inch" : "30.75",
+      "price" : 268000
+    },
+    {
+      "id" : 6,
+      "title" : "Dervish Sama",
+      "content" : "6번 보드",
+      "inch" : "42.8",
+      "price" : 464000
+    }
+]

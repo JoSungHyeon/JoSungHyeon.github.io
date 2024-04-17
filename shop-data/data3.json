@@ -1,19 +1,19 @@
 [
     {
       "id" : 7,
-      "title" : "White and Black",
+      "title" : "7",
       "content" : "Born in France",
       "price" : 120000
     },
     {
       "id" : 8,
-      "title" : "Red Knit",
+      "title" : "8",
       "content" : "Born in Seoul",
       "price" : 110000
     },
     {
       "id" : 9,
-      "title" : "Grey Yordan",
+      "title" : "9",
       "content" : "Born in the States",
       "price" : 130000
     }

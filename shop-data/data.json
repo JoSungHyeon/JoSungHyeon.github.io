@@ -1,0 +1,149 @@
+[
+    {
+      "id" : 1,
+      "title" : "Ballona",
+      "content" : "1번 보드",
+      "inch": "27.75",
+      "price" : 268000
+    },
+    {
+      "id" : 2,
+      "title" : "Basalt Tesseract",
+      "content" : "2번 보드",
+      "inch": "39",
+      "price" : 481000
+    },
+    {
+      "id" : 3,
+      "title" : "Cantellated Tesseract",
+      "content" : "3번 보드",
+      "inch": "36",
+      "price" : 475000
+    },
+    {
+      "id" : 4,
+      "title" : "Chinchiller",
+      "content" : "4번 보드",
+      "inch" : "34",
+      "price" : 423000
+    },
+    {
+      "id" : 5,
+      "title" : "Coyote",
+      "content" : "5번 보드",
+      "inch" : "30.75",
+      "price" : 268000
+    },
+    {
+      "id" : 6,
+      "title" : "Dervish Sama",
+      "content" : "6번 보드",
+      "inch" : "42.8",
+      "price" : 464000
+    },
+    {
+      "id" : 7,
+      "title" : "Evolve Onirique",
+      "content" : "7번 보드",
+      "inch" : "34.5",
+      "price" : 1554000
+    },
+    {
+      "id" : 8,
+      "title" : "Fathom, 33(550,000)",
+      "content" : "8번 보드",
+      "inch" : "33",
+      "price" : 550000
+    },
+    {
+      "id" : 9,
+      "title" : "Icarus",
+      "content" : "9번 보드",
+      "inch" : "38.4",
+      "price" : 515000
+    },
+    {
+      "id" : 10,
+      "title" : "Loaded Carver Bolsa",
+      "content" : "10번 보드",
+      "inch" : "31",
+      "price" : 395000
+    },
+    {
+      "id" : 11,
+      "title" : "Mata Hari",
+      "content" : "11번 보드",
+      "inch" : "44.5",
+      "price" : 423000
+    },
+    {
+      "id" : 12,
+      "title" : "Omakase",
+      "content" : "12번 보드",
+      "inch" : "33.5",
+      "price" : 409000
+    },
+    {
+      "id" : 13,
+      "title" : "Symtail",
+      "content" : "13번 보드",
+      "inch" : "39.5",
+      "price" : 484000
+    },
+    {
+      "id" : 14,
+      "title" : "Tan Tien",
+      "content" : "14번 보드",
+      "inch" : "39",
+      "price" : 459000
+    },
+    {
+      "id" : 15,
+      "title" : "Tarab II",
+      "content" : "15번 보드",
+      "inch" : "47",
+      "price" : 628000
+    },
+    {
+      "id" : 16,
+      "title" : "4President",
+      "content" : "16번 휠",
+      "inch" : "70mm",
+      "price" : 94000
+    },
+    {
+      "id" : 17,
+      "title" : "Caguama",
+      "content" : "17번 휠",
+      "inch" : "85mm",
+      "price" : 125000
+    },
+    {
+      "id" : 18,
+      "title" : "Dad Bod",
+      "content" : "18번 휠",
+      "inch" : "105mm",
+      "price" : 213000
+    },
+    {
+      "id" : 19,
+      "title" : "Durian",
+      "content" : "19번 휠",
+      "inch" : "75mm",
+      "price" : 104000
+    },
+    {
+      "id" : 20,
+      "title" : "Kegel",
+      "content" : "20번 휠",
+      "inch" : "80mm",
+      "price" : 111000
+    },
+    {
+      "id" : 21,
+      "title" : "Love Handles",
+      "content" : "21번 휠",
+      "inch" : "65mm",
+      "price" : 87000
+    }
+]

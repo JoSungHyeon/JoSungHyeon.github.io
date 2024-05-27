@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Ballona",
-      "content": "1번 보드",
+      "content": "Agile, compact, and light, the Loaded Ballona elevates the mini cruiser experience.",
       "inch": "27.75",
       "price": 268000,
       "type": "board",
@@ -12,7 +12,7 @@
     {
       "id" : 2,
       "title" : "Basalt Tesseract",
-      "content" : "2번 보드",
+      "content" : "The Basalt Tesseract integrates dual kicktails, rocker, wheel well flares, W concave, and multiple wheelbase options into a lightweight package designed for hilly descents, snappy slides, lofty ollies, techy manual combos, and cross-steps galore.",
       "inch": "39",
       "price" : 481000,
       "type": "board",

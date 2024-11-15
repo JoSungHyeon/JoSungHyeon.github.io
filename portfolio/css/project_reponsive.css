@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px) {
+	#start header .inner {
+		padding: 0 20px;
+	}
+
+	#start main .main_text {
+		padding: 0 20px;
+	}
+
+	#section1 .title h2 {
+		font-size: 3.5em;
+	}
+
+	#work {
+		padding: 0 20px;
+	}
+
+	#codepen {
+		padding: 0 20px;
+	}
+
+	#codepen .swiper-slide .slide_inner .source_skill {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#start header .inner {
+		height: 80px;
+	}
+	#start header .pc_menu {
+		display: none;
+	}
+
+	#start .mobile_menu {
+		display: block;
+	}
+
+	.main_text {
+		font-size: 13px;
+	}
+
+	#start main .main_text {
+		padding: 0 20px;
+	}
+
+	#work .port_wrapper {
+		padding: 5em 0;
+	}
+	
+	#work .port_wrapper .port_wrap {
+		flex-wrap: wrap;
+	}
+
+	#work .port_wrapper .port_wrap .port_info {
+		width: 100%;
+		padding-top: 3em;
+	}
+	#contact .section_inner {
+		flex-direction: column;
+		gap: 30px;
+		justify-content: center;
+	}
+
+	#contact .section_inner .title {
+		width: 100%;
+	}
+
+	#contact .section_inner .contact_wrap {
+		width: 100%;
+	}
+
+	#contact .section_inner .contact_wrap {
+		justify-content: center;
+		gap: 20px;
+	}
+
+	#contact .section_inner .contact_wrap .contact_item {
+		width: 15%;
+	}
+}

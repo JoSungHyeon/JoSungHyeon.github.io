@@ -1,0 +1,401 @@
+body {
+	background-color: #fff;
+	transition: all 0.5s;
+}
+
+body.dark {
+	background-color: #111;
+}
+
+/* section1 */
+#section1 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	transition: background-color 0.5s;
+}
+
+body.dark #section1 {
+	background-color: #111;
+}
+
+#section1 .title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#section1 .title h2 {
+	line-height: 1.2;
+	font-size: 5.5em;
+	font-weight: 800;
+	font-style: normal;
+	color: #418FDE;
+	white-space: nowrap;
+	text-align: center;
+	transition: color 0.5s;
+}
+
+#section1 .title span {
+	color: #999;
+	font-family: "Noto Serif Display", serif;
+	font-weight: 500;
+	transition: color 0.5s;
+}
+
+body.white #section1 .title h2 {
+	color: #111;
+}
+
+body.dark #section1 .title span {
+	color: #111;
+}
+
+#section1 .specs div {
+	position: absolute;
+	top: 100vh;
+}
+
+#section1 .specs div img {
+	opacity: 0.25;
+}
+
+#section1 .specs .html {
+	left: 5vw;
+	width: 200px;
+	transform: rotate(-25deg);
+}
+
+#section1 .specs .css {
+	right: 5vw;
+	width: 124px;
+	transform: rotate(32deg) scale(2);
+	filter: blur(3px);
+}
+
+#section1 .specs .javascript {
+	left: -5vw;
+	width: 220px;
+	transform: rotate(-24deg);
+	filter: blur(2px) scale(1.5);
+}
+
+#section1 .specs .sass {
+	right: 20vw;
+	width: 150px;
+	filter: blur(4px);
+	transform: scale(2);
+}
+
+#section1 .specs .react {
+	left: 60vw;
+	width: 220px;
+	transform: scale(1.2);
+}
+
+#section1 .specs .node {
+	left: 30vw;
+	width: 220px;
+	transform: rotate(24deg) scale(1.2);
+}
+
+/* section2 */
+#skill .section_inner {
+	max-width: 1000px;
+	padding: 10em 0;
+	margin: 0 auto;
+}
+
+#skill .section_inner .title {
+	font-family: "Noto Serif Display", serif;
+	display: inline-block;
+}
+
+#skill .section_inner .title h2 {
+	color: #111;
+	font-size: 3.5em;
+	font-weight: 600;
+	transition: all 0.5s;
+	position: relative;
+}
+
+body.dark #skill .section_inner .title h2 {
+	color: #fff;
+}
+
+#skill .section_inner .title h2::after {
+	position: absolute;
+	content: "Technology";
+	color: #666;
+	bottom: -15px;
+	right: -5em;
+	letter-spacing: 0.5em;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.275em;
+}
+
+body.dark #skill .section_inner .title::after {
+	color: #111;
+}
+
+#skill .skill_info {
+	width: 100%;
+	margin-top: 4em;
+	display: flex;
+	gap: 1em;
+	flex-direction: column;
+	position: relative;
+}
+
+#skill .skill_info .skill_item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-bottom: 1px solid #ccc;
+	padding: 2em 0;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: auto
+}
+
+#skill .skill_info .skill_item .skill_title {
+	font-weight: 600;
+	font-size: 1.125em;
+	text-transform: capitalize;
+	color: #111;
+	transition: color 0.5s;
+	margin-top: 1em;
+	width: 30%;
+}
+
+#skill .skill_info .skill_item .skill_title span {
+	font-size: 1em;
+	font-weight: 400;
+	font-family: "Noto Serif Display", serif;
+	margin-right: 20px;
+}
+
+body.dark #skill .skill_info .skill_item .skill_title {
+	color: #fff;
+}
+
+#skill .skill_info .skill_item .skill_icon {
+	position: relative;
+	width: 70%;
+}
+
+#skill .skill_info .skill_item .skill_icon .icon_wrap {
+	display: flex;
+	gap: 40px;
+}
+
+#skill .skill_info .skill_item .skill_icon .skill_desc {
+	padding-top: 2em;
+}
+
+#skill .skill_info .skill_item .skill_icon .skill_desc li {
+	line-height: 1.5;
+	font-size: 0.913em;
+	word-break: keep-all;
+	list-style: circle;
+	white-space: wrap;
+	font-weight: 400;
+	padding: 10px 0;
+}
+#skill .skill_info .skill_item .skill_icon img {
+	height: 40px;
+	filter: grayscale(100%);
+	opacity: 0.5;
+}
+
+/* work */
+#work {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+#work #cursor {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	transition: transform 0.5s ease-out;
+}
+
+#work #cursor.on {
+	display: block;
+}
+
+#work #cursor.on::after {
+	content: "View My Project";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: 400;
+	font-size: 2em;
+	font-family: "Noto Serif Display", serif;
+	font-style: italic;
+	z-index: 888;
+	color: #418FDE;
+	white-space: nowrap;
+}
+
+#work .section_inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#work .section_inner .title {
+	font-family: "Noto Serif Display", serif;
+	display: inline-block;
+	position: relative;
+}
+
+#work .section_inner .title h2 {
+	font-size: 8em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #111;
+	text-shadow:
+	 -1px 0 rgba(226, 226, 224, 0.5),
+	 1px -1px 0 rgba(226, 226, 224, 0.7),
+	 -1px 1px 0 rgba(226, 226, 224, 0.7),
+	 1px 1px 0 rgba(226, 226, 224, 0.7),
+	 5px 15px 20px rgba(0, 0, 0, 0.6);
+	transition: color 1s;
+	position: relative;
+}
+
+#work .section_inner .title h2::after {
+	position: absolute;
+	content: "My work";
+    bottom: -30px;
+    right: 0;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+	font-size: 0.5em;
+	color: #fff;
+	transition: color 1s;
+	text-shadow:
+	-1px 0 rgba(226, 226, 224, 0.5),
+	1px -1px 0 rgba(226, 226, 224, 0.7),
+	-1px 1px 0 rgba(226, 226, 224, 0.7),
+	1px 1px 0 rgba(226, 226, 224, 0.7),
+	5px 15px 20px rgba(0, 0, 0, 0.6);
+}
+
+#work .section_inner .title.dark h2 {
+	color: #fff;
+}
+
+#work .section_inner .title.dark h2::after {
+	color: #111;
+}
+
+#work .section_inner .title button {
+	font-family: "Noto Serif Display", serif;
+	border: 1px solid #fff;
+	color: #fff;
+	margin-top: 5em;
+	border: none;
+	background-color: #111;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	font-size: 1.2em;
+}
+
+#work .section_inner .title button::after {
+	content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,.2);
+	transition: width 0.5s;
+}
+
+#work .section_inner .title button.active::after {
+	width: 150%;
+}
+/* contact */
+#contact {
+	background-color: #111;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+#contact .section_inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#contact .section_inner .title {
+	font-family: "Noto Serif Display", serif;
+	position: relative;
+	display: block;
+	width: 50%;
+}
+
+#contact .section_inner .title h2 {
+	font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 2px;
+	text-align: left;
+	color: #111;
+	text-shadow:
+	 -1px 0 rgba(226, 226, 224, 0.5),
+	 1px -1px 0 rgba(226, 226, 224, 0.7),
+	 -1px 1px 0 rgba(226, 226, 224, 0.7),
+	 1px 1px 0 rgba(226, 226, 224, 0.7),
+	 5px 15px 20px rgba(0, 0, 0, 0.6);
+	transition: color 1s;
+}
+
+#contact .section_inner .title.dark h2 {
+	color: #fff;
+}
+
+#contact .section_inner .contact_wrap {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+#contact .section_inner .contact_wrap .contact_item {
+	color: #fff;
+	text-align: center;
+}
+
+#contact .section_inner .contact_wrap .contact_item .item_img {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+}
+
+#contact .section_inner .contact_wrap .contact_item .item_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+

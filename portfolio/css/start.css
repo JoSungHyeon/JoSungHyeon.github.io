@@ -1,0 +1,249 @@
+/* header */
+#start {
+	height: 100vh;
+	background-color: #111;
+}
+
+#start header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	backdrop-filter: blur(5px);
+}
+
+#start header .inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#start header .logo {
+	z-index: 999;
+}
+
+#start header .logo h1 a {
+	font-family: "Noto Serif Display", serif;
+	font-size: 1em;
+	font-weight: 500;
+	color: #fff;
+}
+
+#start header.active .logo.on h1 a {
+	color: #fff;
+}
+
+#start header .pc_menu ul {
+	display: flex;
+	gap: 1.25em;
+}
+
+#start header .pc_menu ul li a {
+	display: block;
+	line-height: 80px;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+	color: #fff;
+	position: relative;
+	padding: 0 20px;
+}
+
+#start header .pc_menu ul li a::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 1px;
+	background-color: #fff;
+	bottom: 0px;
+	left: 0;
+	transition: width 0.3s;
+	transform-origin: center;
+}
+
+#start header.active {
+	background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(5px);
+}
+
+#start header.active .pc_menu ul li a::after {
+	background-color: #000;
+}
+
+#start header .pc_menu ul li.active a::after {
+	width: 100%;
+}
+
+#start header.active .logo h1 a,
+#start header.active .pc_menu ul li a {
+	color: #000;
+}
+
+/* main */
+#start main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	gap: 4px 4px;
+	flex-wrap: wrap;
+	overflow: hidden;
+	position: relative;
+}
+
+#start video {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	filter: grayscale(100%);
+	object-fit: cover;
+	z-index: 10;
+}
+
+#start main::before {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to bottom, transparent 0%, #111 80%);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 12;
+}
+#start main::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+}
+
+#start main .main_text {
+	position: absolute;
+	max-width: 1200px;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 13;
+}
+
+#start main .main_text h2 {
+	font-family: "Noto Serif Display", serif;
+	font-size: 5em;
+	font-weight: 600;
+	position: relative;
+	color: #418fde;
+	transition: all 0.5s;
+}
+
+#start main .main_text p {
+	color: #fff;
+    font-weight: 300;
+    line-height: 2.5;
+    font-size: 1em;
+    text-shadow: none;
+    letter-spacing: 2px;
+	/* position: absolute; */
+	/* top: 100px; */
+	left: 0px;
+}
+
+/* mobile */
+#start .mobile_menu {
+	display: none;
+}
+
+#start .mobile_menu ul {
+	width: 100vw;
+	height: 100vh;
+	background-color: #111;
+	position: fixed;
+	top: 0;
+	left: 100%;
+	z-index: 998;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10em 0;
+}
+
+#start .mobile_menu ul li {
+	width: 50%;
+	height: 25%;
+}
+
+#start .mobile_menu ul a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#start .mobile_menu ul a p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+	color: #418fde;
+}
+
+#start .mobile_menu .mobile_open {
+	width: 25px;
+	height: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: all 0.5s;
+	position: relative;
+	z-index: 999;
+}
+
+
+#start .mobile_menu .mobile_open div {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	border-radius: 6px;
+	transition: all 0.5s;
+}
+
+#start header.active .mobile_menu .mobile_open div {
+	background-color: #111;
+}
+
+#start header.active .mobile_menu .mobile_open.on div {
+	background-color: #fff;
+}
+
+#start .mobile_menu .mobile_open.on {
+	justify-content: center;
+}
+
+#start .mobile_menu .mobile_open.on div:nth-child(1) {
+	transform: rotate(45deg);
+	transform-origin: 11px;
+}
+
+#start .mobile_menu .mobile_open.on div:nth-child(2) {
+	display: none;
+}
+
+#start .mobile_menu .mobile_open.on div:nth-child(3) {
+	transform: rotate(-45deg);
+	transform-origin: 11px;
+}

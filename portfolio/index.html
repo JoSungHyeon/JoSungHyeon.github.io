@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>JoSungHyeon</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/start.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/reponsive.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
+<script src="js/lenis.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/main.js"></script>
+<script>
+	window.addEventListener("load", function() {
+		// gsap.to(window, {scrollTo: 0});
+	});
+</script>
+</head>
+
+<body class="dark">
+<div id="start">
+	<header>
+		<div class="inner">
+			<div class="logo">
+				<h1><a href="">JoSungHyeon</a></h1>
+			</div>
+			<nav class="pc_menu">
+				<ul>
+					<li><a href="#start">Intro</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<nav class="mobile_menu">
+				<a href="" class="mobile_open">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
+				<ul>
+					<li><a href="#start"><p>Intro</p></a></li>
+					<li><a href="#skill"><p>Skills</p></a></li>
+					<li><a href="#work"><p>Work</p></a></li>
+					<li><a href="#contact"><p>Contact</p></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<video src="./video/intro2.mp4" muted autoplay loop></video>
+		<div id="cursor"></div>
+		<div class="main_text">
+			<h2 id="output">FRONTEND DEVELOPER</h2>
+			<p id="sub"></p>
+		</div>
+	</main>
+</div>
+<section id="section1">
+	<div class="icons">
+		<div class="title">
+			<h2>GROWTH <span>AND</span></h2>
+			<h2><span>DEVELOPMENT FOR</span></h2>
+			<h2>BETTER <span>DAYS</span></h2>
+		</div>
+		<div class="specs">
+			<div class="html">
+				<img src="img/html_icon.png" alt="html">
+			</div>
+			<div class="css">
+				<img src="img/css_icon.png" alt="css">
+			</div>
+			<div class="javascript">
+				<img src="img/javascript_icon.png" alt="javascript">
+			</div>
+			<div class="sass">
+				<img src="img/sass_icon.png" alt="sass">
+			</div>
+			<div class="react">
+				<img src="img/react_icon.png" alt="react">
+			</div>
+			<div class="node">
+				<img src="img/node_icon.png" alt="react">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="skill">
+	<div class="section_inner">
+		<div class="title">
+			<h2>SKILLS</h2>
+		</div>
+		<div class="skill_info">
+			<div class="skill_item">
+				<div class="skill_title"><span>01</span>WEB</div>
+				<div class="skill_icon">
+					<div class="icon_wrap">
+						<img src="img/spec/spec_html.png" alt="html">
+						<img src="img/spec/spec_css.png" alt="css">
+						<img src="img/spec/spec_sass.png" alt="sass">
+						<img src="img/spec/spec_js.png" alt="js">
+						<img src="img/spec/spec_es6.png" alt="es6">
+						<img src="img/spec/spec_gsap.png" alt="gsap">
+						<img src="img/spec/spec_swiper.png" alt="swiper">
+					</div>
+					<ul class="skill_desc">
+						<li>웹 페이지의 기본 구조 작성 및 레이아웃 설정(플렉스박스, 그리드), 반응형 디자인, 애니메이션 및 트랜지션 효과</li>
+						<li>SASS를 활용한 스타일 코드의 재사용, 구조화된 스타일 시트 관리, 효율적인 코드 유지보수</li>
+						<li>JavaScript를 이용한 사용자 상호작용, 동적 콘텐츠 업데이트, 애니메이션 구현</li>
+						<li>ES6에 따른 모듈화된 코드 작성, 클래스 기반 객체지향 프로그래밍, 간결한 함수 문법</li>
+						<li>GSAP, Swiper 등 다양한 라이브러리 사용 가능</li>
+					</ul>
+				</div>
+			</div>
+			<div class="skill_item">
+				<div class="skill_title"><span>02</span>Front-end</div>
+				<div class="skill_icon">
+					<div class="icon_wrap">
+						<img src="img/spec/spec_react.png" alt="react">
+						<img src="img/spec/spec_redux.png" alt="redux">
+						<img src="img/spec/spec_axios.png" alt="axios">
+						<img src="img/spec/spec_jsx.png" alt="jsx">
+					</div>
+					<ul class="skill_desc">
+						<li>React를 사용한 컴포넌트 기반 UI 개발, 상태 관리, React Router를 활용한 페이지 라우팅, 가상 DOM을 통한 성능 최적화</li>
+						<li>Redux를 활용한 애플리케이션의 전역 상태 관리, 컴포넌트 간 데이터 전달, 비동기 데이터 처리</li>
+						<li>Axios를 사용한 API 데이터 통신, 비동기 데이터 요청 및 처리, 응답 데이터의 변환 및 오류 처리</li>
+						<li>JSX를 사용하여 React 컴포넌트 내에서 HTML 구조와 JavaScript를 결합한 UI 작성, 코드 가독성 향상, 동적 콘텐츠 렌더링</li>
+					</ul>
+				</div>
+			</div>
+			<div class="skill_item">
+				<div class="skill_title"><span>03</span>Back-end</div>
+				<div class="skill_icon">
+					<div class="icon_wrap">
+						<img src="img/spec/spec_node.png" alt="node">
+						<img src="img/spec/spec_express.png" alt="express">
+						<img src="img/spec/spec_mongo.png" alt="mongo">
+					</div>
+					<ul class="skill_desc">
+						<li>Express를 활용한 웹 서버 구현</li>
+						<li>MongoDB를 활용한 데이터베이스 활용</li>
+					</ul>
+				</div>
+			</div>
+			<div class="skill_item">
+				<div class="skill_title"><span>04</span>Build & Hosting</div>
+				<div class="skill_icon">
+					<div class="icon_wrap">
+						<img src="img/spec/spec_vite.png" alt="vite">
+						<img src="img/spec/spec_vercel.png" alt="vercel">
+						<img src="img/spec/spec_pwa.png" alt="pwa">
+					</div>
+					<ul class="skill_desc">
+						<li>Vite를 활용한 빠른 빌드, ES 모듈 기반 개발</li>
+						<li>Vercel을 사용한 빠르고 자동화된 배포</li>
+						<li>PWA 개발로 오프라인 지원, 모바일 및 데스크톱에서의 최적화된 성능으로 개발 가능</li>
+					</ul>
+				</div>
+			</div>
+			<div class="skill_item">
+				<div class="skill_title"><span>05</span>SCM</div>
+				<div class="skill_icon">
+					<div class="icon_wrap">
+						<img src="img/spec/spec_github.png" alt="github">
+						<img src="img/spec/spec_git.png" alt="git">
+					</div>
+					<ul class="skill_desc">
+						<li>GitHub를 사용한 코드 호스팅 및 저장, 협업 및 코드 리뷰, 프로젝트 관리 가능</li>
+						<li>Git을 활용한 코드 버전 관리, 변경 이력 추적, 브랜치 및 병합 관리 및 웹호스팅 가능</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="work">
+	<div class="section_inner">
+		<div id="cursor"></div>
+		<a href="./project.html" class="title">
+			<h2>PROJECT</h2>
+			<button>Click Here</button>
+		</a>
+	</div>
+</section>
+<section id="contact">
+	<div class="section_inner">
+		<div href="" class="title">
+			<h2>CONTACT</h2>
+		</div>
+		<div class="contact_wrap">
+			<a href="" class="contact_item">
+				<div class="item_img">
+					<img src="img/git.png" alt="git">
+				</div>
+			</a>
+			<a href="" class="contact_item">
+				<div class="item_img">
+					<img src="img/notion.png" alt="notion">
+				</div>
+			</a>
+			<a href="" class="contact_item">
+				<div class="item_img">
+					<img src="img/kakao.png" alt="kakao">
+				</div>
+			</a>
+			<a href="" class="contact_item">
+				<div class="item_img">
+					<img src="img/codepen.png" alt="codepen">
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+</body>
+</html>

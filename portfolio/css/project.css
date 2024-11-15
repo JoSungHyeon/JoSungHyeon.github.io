@@ -407,9 +407,9 @@ body {
 #codepen .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	border: 2px solid rgba(65, 143, 222, 0.5);
+	border: 2px solid rgba(255, 255, 255, 0.12);
 	display: flex;
-	box-shadow: 2px 0px 4px rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
 	border-radius: 4px;
 }
 
@@ -427,8 +427,7 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border: 2px solid #418FDE;
-	box-shadow: 2px 0px 4px rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
 }
 
 #codepen .swiper-slide .slide_inner .source_title {
